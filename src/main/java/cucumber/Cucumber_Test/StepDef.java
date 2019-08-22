@@ -19,6 +19,7 @@ public class StepDef {
 				"C:\\Users\\KaVi\\eclipse-workspace\\Maven\\Cucumber_Test\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
+		driver.manage().window().maximize();
 
 	}
 
